@@ -3,6 +3,7 @@
 // https://github.com/killerkoop
 
 // Collision function. Credit to Mozilla for math. Returns true if 2 sprites are colliding
+// (developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection)
 function collision(rect1, rect2) {
     if (rect1.x < rect2.x + rect2.width &&
         rect1.x + rect1.width > rect2.x &&
